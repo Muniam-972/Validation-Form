@@ -1,5 +1,5 @@
  document.getElementById("validationForm").addEventListener("submit", function (e) {
-      e.preventDefault(); // prevent form from submitting
+      e.preventDefault(); 
 
       const firstName = document.getElementById("firstName").value.trim();
       const lastName = document.getElementById("lastName").value.trim();
